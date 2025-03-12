@@ -69,16 +69,6 @@ histogram s = [(c, countOccurrences s c) | c <- uniqueChars s]
 
 main :: IO ()
 main = do
-    -- print(makeListOfNElements 10)
-    -- print(getArithmeticProg 2 3 5)
-    -- print(getFactorials 6)
-    -- print(getEvenNumbers)
-    -- print(getArithmeticProg 2 3)
-    -- print(getFactorials)
-    -- print(numberDigitsReverse 12345)
-    -- print(numberDigitsRevWithoutRepetition 123345)
-    -- print(perfectNumbers 500)
-    -- print(countOccurencies "abracadabra" 'b')(co)
     print(getNOfFactorials 5)
 
   
