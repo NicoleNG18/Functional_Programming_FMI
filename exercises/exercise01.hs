@@ -3,7 +3,7 @@ triangleArea :: Double->Double->Double
 triangleArea c hc = 0.5 * c * hc 
 
 semiPerimeter:: Double->Double->Double->Double
-semiPerimeter a b c = (a+b+c)*0.5
+semiPerimeter a b c = (a + b + c) * 0.5
 
 triangleAreaSecond:: Double->Double->Double->Double
 triangleAreaSecond a b c = 
@@ -103,14 +103,6 @@ areSymetric a b =
      (a `mod` 10) == (b `div` 100 `mod` 10) &&
      (a `div` 10 `mod` 10) ==  (b `div` 10 `mod` 10) &&
     (a `div` 100 `mod` 10) == (b `mod` 10)
-
---22.3 - p - естественото число x, за което се знае, че е по-малко от 23, е просто.
--- isPrimeunder23 :: Int->Bool
--- isPrimeunder23 a 
---     | a <= 1    = False  
---     | a == 2    = True   
---     | even a    = False
---     | otherwise ???
 
 --22.4
 countDigits::Int->Int

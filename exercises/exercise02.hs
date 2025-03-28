@@ -66,7 +66,6 @@ uniqueChars (x:xs)
 histogram :: String -> [(Char, Int)]
 histogram s = [(c, countOccurrences s c) | c <- uniqueChars s]
 
-
 main :: IO ()
 main = do
     print(getNOfFactorials 5)
