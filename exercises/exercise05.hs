@@ -76,6 +76,10 @@ isEqualWithIndex lst = isEqualWithIndexHelper (zip lst [0..])
 pairSums :: [Int] -> [Int]
 pairSums xs = [x + y | (x, y) <- zip xs (tail xs)]
 
+-- second solution
+-- sumDoubles :: [Int] -> [Int]
+-- sumDoubles xs = zipWith (+) xs (tail xs)
+
 -- 25.5. 
 -- С помощта на zipWith да се дефинира функция sums :: [Int] -> [Int],
 -- която по списък от числа L= l1,l2,l3,... намира списъка S= l1,(l1 +
